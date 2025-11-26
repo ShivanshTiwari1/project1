@@ -1,8 +1,21 @@
-function test() {
+export default function Square() {
   return (
     <>
-      <h1>hello</h1>
+      <div>
+        <button className="square">X</button>
+        <button className="square">X</button>
+        <button className="square">X</button>
+      </div>
+      <div>
+        <button className="square">X</button>
+        <button className="square">X</button>
+        <button className="square">X</button>
+      </div>
+      <div>
+        <button className="square">X</button>
+        <button className="square">X</button>
+        <button className="square">X</button>
+      </div>
     </>
   );
 }
-export default test;
