@@ -1,0 +1,4 @@
+.square {
+  height: 34px; /* This prevents the button from collapsing */
+  width: 34px; /* This ensures it stays square */
+}
